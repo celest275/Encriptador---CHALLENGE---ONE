@@ -1,0 +1,146 @@
+
+
+* {
+    box-sizing: border-box;
+}
+#texto {
+    text-align: center;
+}
+#ilustracion {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 60%;
+    
+}
+#copiar {
+    margin-left: 23%;
+    margin-top: 20%;
+    padding: 10px;
+    width: 65%;
+    height: 10%;
+    background: #DBDFE8;
+    border-radius: 24px;
+    display: none;
+    font-size: 24px;
+}
+#detective{
+    display: none;
+    margin-left: 35%;
+    width: 40%;
+}
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 25%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#aviso {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#btn-encriptar {
+    padding: 24px;
+    width: 40%;
+    height: 70%;
+    border-radius: 24px;
+    margin-left: 5%;
+    background: #0A3871;
+    color: #fff;
+    font-size: 24px;
+}
+#btn-desencriptar {
+    padding: 24px;
+    width: 40%;
+    height: 70%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #DBDFE8;
+    font-size: 24px;
+}
+.principal{
+    float: left;
+    width: 55%;
+    height: 80%;
+    border-radius: 15px;
+    
+}
+
+.botones-funcion {
+    display: inline-block;
+    width: 55%;
+    height: auto;
+    margin-top: 3px;
+    border-radius: 15px;
+    
+}
+
+.mensaje-principal {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: F3F5FC;
+}
+.mensaje{
+    display: inline-block;
+    width: 400px;
+    height: 510px;
+    border-radius: 32px;
+   
+}
+
+.text-foot {
+    border-top: 1px solid rgb(137, 209, 218);
+    font-style: italic;
+    
+}
+
+.texto-footer{
+    margin: 0 auto;
+
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(137, 209, 218) ;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+h5{
+    margin-top: 5px;
+    font-size: small;
+}
